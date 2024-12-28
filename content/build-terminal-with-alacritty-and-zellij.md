@@ -1,5 +1,5 @@
 ---
-title: 使用Alacritty和Zellij提升终端体验
+title: 终端新体验：Alacritty 和 Zellij 的高效搭配
 description: Alcritty和Zellij的基础体验和配置
 date: 2024-12-11
 tags:
