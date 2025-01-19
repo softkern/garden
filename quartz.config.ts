@@ -12,7 +12,11 @@ const config: QuartzConfig = {
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
-    analytics: null,
+    analytics: {
+      provider: "umami",
+      host: "https://umami.bushu.dev",
+      websiteId: "0198115c-eb64-4ab5-8760-923b515cc0a0",
+    },
     locale: "en-US",
     baseUrl: "garden.softkern.com",
     ignorePatterns: ["private", "templates", ".obsidian"],
